@@ -16,7 +16,7 @@ Item,Quantity,Part,Source,Notes
 15,8,330 Ohm resistor,Elegoo electronics kit,Resistors for each LED
 16,2,Elegoo Breadboards,Elegoo electronics kit,Boards for circuits
 17,As needed,Jumper wires,Elegoo electronics kit,Wires for circuits
-18,2,0.1µ Ceramic Capacitor,Elegoo electronics kitk,Across motor terminals and LED shift register voltage input and gnd for noise supression
+18,2,0.1µ Ceramic Capacitor,Elegoo electronics kit,Across motor terminals and LED shift register voltage input and gnd for noise supression
 19,1,470µ Electrolytic Capacitor,Elegoo electronics kit,Across positive and negative power rails for smooth startup
 20,1,Shoebox,Owned,Prototype casing
 21,As needed,Hot glue / Electricians tape / Duct tape,Store-bought,Mounting components / Connecting wire ends
