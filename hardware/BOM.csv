@@ -1,14 +1,14 @@
 Item,Quantity,Part,Source,Notes
 1,1,ESP32,Owned,Main microcontroller
-2,1,DC Motor,Salvaged from pencil sharpener,Flag movement
+2,1,DC Motor,Salvaged from pencil sharpener / Store-bought,Flag movement
 3,1,SG 90 Servo,Elegoo electronics kit,Fan movement
 4,1,Passive buzzer,Elegoo electronics kit,SFX / Finish tune
 5,1,Ultrasonic sensor,Elegoo electronics kit,Person detection
-6,1,Button,Twidec,User input
+6,1,Button,Twidec / Amazon,User input
 7,8,Small LEDs,From Elegoo electronics kit,VFX / Time indicator
 8,1,SN74HC595N Shift Register,From Elegoo electronics kit,Controls 8 LEDs with 3 ESP32 pins
 9,4,AA Battery,Store-bought,Main power source
-10,1,4x AA Battery Holder,Homemade,Puts 2 2x AA Batteries in series to generate a total of 6v for the creature
+10,1,4x AA Battery Holder,Homemade,Takes 2 2x AA Batteries in series to generate a total of 6v for the creature
 11,1,PN2222A Transistor,Elegoo electronics kit,Switch for DC motor
 12,1,Flyback diode,Amazon,Flyback diode for DC motor
 13,1,1k Ohm resistor,Elegoo electronics kit,Resistor for transistor base
@@ -16,8 +16,8 @@ Item,Quantity,Part,Source,Notes
 15,8,330 Ohm resistor,Elegoo electronics kit,Resistors for each LED
 16,2,Elegoo Breadboards,Elegoo electronics kit,Boards for circuits
 17,As needed,Jumper wires,Elegoo electronics kit,Wires for circuits
-18,2,0.1µ Ceramic Capacitor,Across motor terminals and LED shift register voltage input and gnd for noise supression
-19,1,470µ Electrolytic Capacitor,Across positive and negative power rails for smooth startup
+18,2,0.1µ Ceramic Capacitor,Elegoo electronics kitk,Across motor terminals and LED shift register voltage input and gnd for noise supression
+19,1,470µ Electrolytic Capacitor,Elegoo electronics kit,Across positive and negative power rails for smooth startup
 20,1,Shoebox,Owned,Prototype casing
-21,As needed,Hot glue / Electricians tape / Duct tape, Mounting components / Connecting wire ends
+21,As needed,Hot glue / Electricians tape / Duct tape,Store-bought,Mounting components / Connecting wire ends
 22,1,Micro USB cable,Owned,Uploading code
