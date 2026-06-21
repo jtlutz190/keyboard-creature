@@ -7,7 +7,7 @@ Item,Quantity,Part,Source,Notes
 6,1,Button,Twidec,User input
 7,8,Small LEDs,From Elegoo electronics kit,VFX / Time indicator
 8,1,SN74HC595N Shift Register,From Elegoo electronics kit,Controls 8 LEDs with 3 ESP32 pins
-9,4,AA Battery,Main power source
+9,4,AA Battery,Store-bought,Main power source
 10,1,4x AA Battery Holder,Homemade,Puts 2 2x AA Batteries in series to generate a total of 6v for the creature
 11,1,PN2222A Transistor,Elegoo electronics kit,Switch for DC motor
 12,1,Flyback diode,Amazon,Flyback diode for DC motor
