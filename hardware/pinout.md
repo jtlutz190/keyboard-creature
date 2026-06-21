@@ -60,7 +60,9 @@ Signal ==== GPIO27
 ## DC Motor  
   
 Motor(+) ==(Striped side of diode)==(Side 1 of capacitor)== Power rail(+)  
-Motor(-) ==(Non-striped side of diode)==(Side 2 of capacitor)== GND   
+Motor(-) ==(Non-striped side of diode)==(Side 2 of capacitor)== Transistor (Collector)
+Transistor (Base) ===== Resistor 1kO ====== GPIO18
+Transistor (Emitter) ===== GND
 A ceramic capacitor is used across + and - in order to reduce noise.  
   
 ## Buzzer (passive)  
