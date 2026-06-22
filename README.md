@@ -40,8 +40,14 @@ Found in 'hardware/pinout.md'
 Button --------------- ESP32  
 Ultrasonic sensor -------^  
   
-ESP32 controller  ------- DC Motor  
-                  +------- Servo  
-                  +------- Buzzer  
-                  +------- Shift register ------- LEDs  
-                  
+ESP32  
+|  
+|----- DC Motor  
+|  
+|----- Servo  
+|  
+|------ Buzzer  
+|  
+------ Shift Register ----- LEDs  
+
+  
