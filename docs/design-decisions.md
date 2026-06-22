@@ -4,13 +4,13 @@ This document explains my thought process on multiple aspects of the project.
   
 ## Using ESP32  
   
-I chose to build with the ESP32 because of the multiple pins it has for input and output and it features PWM for the servo and passive buzzer.  
+I chose to build with the ESP32 because of the multiple pins it has for input and PWM capabilities for the servo and passive buzzer.  
 Also, I plan on developing an app that is used on the user's computer in the future. Fortunately, ESP32 has bluetooth capabilities which makes this possible.  
   
 ## Using a DC salvaged motor.  
   
 The DC motor was salvaged from an electric pencil sharpener. Originally, I wanted to open the pencil sharpener to see how it worked on the inside. After doing so, I actually  
-gained inspiration to use the motor to make something cooler. I think it's super cool reusing existing parts giving the project a "Frankenstein" feel. I plan on doing this more  
+gained inspiration to use the motor to make something cooler, which inspired this project. I think it's super cool reusing existing parts giving the project a "Frankenstein" feel. I plan on doing this more  
 in the future.  
   
 ## Using LED shift register  
@@ -20,8 +20,7 @@ a cool new chip in the process.
   
 ## Using capacitors  
   
-There are three capacitors in total being used in the project. Two ceramic capacitors go across the LED shift register and motor voltage input and ground and the other electrolytic capacitor goes across the  
-positive and negative power rails. Initially, the dc motor would use too much current upon startup causing the LEDs to flicker when they weren't supposed to. So, after doing some research, I discovered  
+Initially, the DC motor would use too much current upon startup causing the LEDs to flicker when they weren't supposed to. So, after doing some research, I discovered  
 the power of using capacitors across the positive and negative terminals in order to make the startup smoother. Afterwards, two more were placed across the motor and shift register to reduce noise.  
 In this process I learned intuitively how capacitors work and physically how they can help balance load upon startup.  
   
